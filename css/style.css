@@ -84,3 +84,5 @@ img {
 .intro p {
     margin-bottom: 0px;
 }
+
+@import "../node_modules/bootstrap/scss/functions";
