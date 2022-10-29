@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(93, 116, 102, 0.51);
+}
+
+h1 {
+    font-family: 'Aktiv Grotesk Ex';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1.6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.21);
+}
+
+h2 {
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: black;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: justify;    
+    text-decoration: none;
+    color: black;
+}
+
+.case-nav li {
+    gap: 1em;
+}
+
+section {
+    margin: 2em;
+}
+
+.jumbotron {
+    padding: 1em;
+}
+
+.row {
+    row-gap: 1em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2%;
+}
+
+.problem-statement {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.intro p {
+    margin-bottom: 0px;
+}
